@@ -1,0 +1,36 @@
+<h1 class="card-title">Welcome to the Rick and Morty Gossip Project</h1>
+<p>You GOTTA get SCHWIFTYY !</p>
+<h2>Gossips</h2>
+<div class="card-columns">
+  <% @gossips.each do |gossip| %>
+    <div class="card p-3">
+      <blockquote class="blockquote mb-0 card-body">
+      <p><%= gossip.content%></p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+        <%= gossip.author%> <%= link_to "says", gossip_path(gossip.id) %>
+        </small>
+      </footer>
+      </blockquote>
+    </div>
+  <% end%>
+  <div class="card">
+    <img class="card-img-top" src=".../100px160/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title that wraps to a new line</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+</div>
+
+
+<!--
+<div class="card" style="width: 50rem;">
+  <div class="card-body">
+    <dl class="list-group list-group-flush">
+    <% @gossips.each do |gossip| %>
+        <dt class="list-group-item"><%= gossip.author%> <%= link_to "says", gossip_path(gossip.id) %>:</dt>
+        <dd class="list-group-item"><%= gossip.content%></dd>
+    <% end%>
+    </dl>
+-->
