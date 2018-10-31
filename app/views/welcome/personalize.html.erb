@@ -1,9 +1,12 @@
-<h1 class="card-title">Welcome to the <strong>Rick and <%= @user %></strong> Gossip Project</h1>
-<p>wubba lubba dub dub !</p>
-<h2>Gossips</h2>
+<div class="jumbotron card text-center bg-dark">
+    <h1 class='card-title text-light text-capitalize font-weight-bold'>welcome to the rick & <%= @user %> gossip project</h1>
+    <p class='lead font-italic text-info text-uppercase'>You GOTTA get SCHWIFTYY !</p>
+  </div>
+<div class="container">
+<h2>Greatest Quotes</h2>
 <div class="card-columns">
   <% @gossips.each do |gossip| %>
-    <div class="card p-3">
+    <div class="card p-3 border border-info">
       <blockquote class="blockquote mb-0 card-body">
       <p><%= gossip.content%></p>
       <footer class="blockquote-footer">
