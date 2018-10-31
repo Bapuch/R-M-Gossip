@@ -1,24 +1,22 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## ![Image of form](https://img7.androidappsapk.co/poster/2/8/9/com.shyomnience.dropof.picklerick_1.png)
 
-Things you may want to cover:
+## Exercice du Mardi 30 Octobre - Gossip App
 
-* Ruby version
+### Greetings
+--------------------------------------------------
+Dear moussaillon,
 
-* System dependencies
+Attaché à ce repo se trouve l'app <strong>Gossip</strong>
 
-* Configuration
+Tu trouveras [ici](https://rick-and-morty-gossip.herokuapp.com/) la version online de l'application sur Heroku
 
-* Database creation
+### Travail réalisé par
+--------------------------------------------------
+Noms | Pseudo Slack
+------------ | -------------
+Maëlle Ngachili|@Maëlle
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Bonne correction ! :poop:
+--------------------------------------------------
