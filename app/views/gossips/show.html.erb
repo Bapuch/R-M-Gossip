@@ -1,0 +1,8 @@
+<div class="jumbotron card text-center bg-primary">
+    <h1 class='card-title text-light text-capitalize font-weight-bold'>awesome quote #<%= @gossip.id%></h1>
+    <p class='lead font-italic text-dark text-uppercase'>On <%= @gossip.created_at%></p>
+    <hr class="my-4">
+    <p class='lead text-light text-capitalize font-weight-bold'><%= @gossip.author%> said that</p>
+    <p class='lead text-light'><%= @gossip.content%></p>
+  </div>
+<div class="container">
